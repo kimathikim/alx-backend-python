@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-
-make_multiplier = __import__('8-make_multiplier').make_multiplier
-print(make_multiplier.__annotations__)
-fun = make_multiplier(2.22)
-print("{}".format(fun(2.22)))
+from typing import List
+element_length = __import__('9-element_length').element_length
+print(element_length.__annotations__)
+# access the element_length function and access it values
